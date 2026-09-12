@@ -1,8 +1,4 @@
-<h1 align="center">🛠️ Falcar - Technical Service</h1>
-
-<p align="center">
-  <em>Official website for <b>Falcar</b>, a business specializing in the installation, repair, and maintenance of boilers, HVAC systems, and air conditioners in Buenos Aires (Zona Sur & CABA).</em>
-</p>
+<h1 align="center">🛠️ Falcar - Service & Web</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
@@ -10,20 +6,33 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </p>
 
+<p align="center">
+  <a href="#-english-version">English version below</a> | <a href="#-versión-en-español">Versión en español abajo</a>
+</p>
+
 ---
 
-## 🎯 About the Project
+## 🇬🇧 English Version
+
+> Official website for **Falcar**, a business specializing in the installation, repair, and maintenance of boilers, HVAC systems, and air conditioners in Buenos Aires (Zona Sur & CABA).
 
 A custom-designed web application with a strong focus on **conversion rates** and **user experience (UX)**. The main goal was to establish a direct and fast contact channel (via WhatsApp) and build trust through the integration of real customer reviews.
 
-## 🚀 Tech Stack
+### ✨ Key Features
+
+* **Sticky Navbar:** Dark-themed responsive menu with a hamburger toggle for mobile.
+* **Hero Section:** Immersive full-screen (100vh) landing section with direct "Call to Action" buttons linking to WhatsApp.
+* **Services Section:** Interactive cards providing preventative maintenance tips.
+* **Dynamic Gallery:** Infinite carousel displaying real on-site jobs.
+* **Social Proof:** Seamless automatic synchronization of Google Reviews via Elfsight.
+
+### 🛠️ Tech Stack
 
 * **React.js + Vite:** Fast, optimized component-based architecture.
 * **CSS3 (Grid / Flexbox):** Custom styling using a *Mobile First* approach.
 * **React Icons:** Scalable and lightweight iconography.
-* **Elfsight Widget:** Automatic synchronization of Google Reviews.
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 src/
@@ -46,19 +55,13 @@ src/
 └── main.jsx             # Entry point
 ```
 
-## ✨ Key Features
+### 🚀 Local Setup
 
-* **Sticky Navbar:** Dark-themed responsive menu with a hamburger toggle for mobile.
-* **Hero Section:** Immersive full-screen (100vh) landing section with direct "Call to Action" buttons linking to WhatsApp.
-* **Services Section:** Interactive cards providing preventative maintenance tips.
-* **Dynamic Gallery:** Infinite carousel displaying real on-site jobs.
-* **Social Proof:** Seamless integration of authentic customer reviews.
-
-## ⚙️ Local Setup
+Follow these steps to set up the local development environment:
 
 1. Clone the repository:
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/YOUR-USERNAME/falcar-web.git
    ```
 
 2. Install dependencies:
@@ -71,25 +74,36 @@ src/
    npm run dev
    ```
 
-## 📄 License
+### 📄 License
 
 Developed for **Falcar Service**. All rights reserved.
 
+---
+---
 
+## 🇪🇸 Versión en Español
 
-# Falcar - Servicio Técnico
+> Sitio web oficial de **Falcar**, un emprendimiento especializado en la instalación, reparación y mantenimiento de calderas, climatizadores y aires acondicionados en Zona Sur y CABA.
 
-Sitio web oficial de **Falcar**, un emprendimiento especializado en la instalación, reparación y mantenimiento de calderas, climatizadores y aires acondicionados en Zona Sur y CABA.
+Aplicación web diseñada a medida con un fuerte enfoque en la **tasa de conversión** y la **experiencia de usuario (UX)**. El objetivo principal fue crear una vía de contacto directa y rápida (vía WhatsApp) y generar confianza a través de la integración de reseñas reales.
 
-## 🛠️ Tecnologías Utilizadas
+### ✨ Características Principales
 
-* **React.js** (Estructura de componentes)
-* **CSS3 / Flexbox / Grid** (Estilos y diseño Mobile First)
-* **React Icons** (Iconografía)
-* **Elfsight Widget** (Integración de reseñas de Google)
+* **Navbar Fijo:** Menú oscuro con diseño responsive y botón hamburguesa para navegación móvil.
+* **Hero Section:** Portada inmersiva (100vh) alineada a la izquierda con botones de "Call to Action" (Llamado a la acción) directos a WhatsApp.
+* **Sección de Servicios:** Tarjetas interactivas con consejos de mantenimiento preventivo.
+* **Galería en Movimiento:** Carrusel infinito mostrando trabajos reales en campo.
+* **Social Proof:** Sincronización automática de reseñas de Google Reviews mediante Elfsight.
 
-## Estructura del Proyecto
+### 🛠️ Stack Tecnológico
 
+* **React.js + Vite:** Arquitectura de componentes rápida y optimizada.
+* **CSS3 (Grid / Flexbox):** Estilos personalizados bajo un enfoque *Mobile First*.
+* **React Icons:** Iconografía ligera y escalable.
+
+### 📂 Estructura del Proyecto
+
+```text
 src/
 ├── components/          
 │   ├── Footer.jsx       # Contacto y formulario
@@ -108,26 +122,27 @@ src/
 │
 ├── App.jsx              # Componente raíz
 └── main.jsx             # Punto de entrada
+```
 
-## Características Principales
+### 🚀 Instalación y Despliegue Local
 
-* **Navbar Fijo:** Menú oscuro con diseño responsive y botón hamburguesa.
-* **Hero Section:** Portada (100vh) alineada a la izquierda con botones de acceso rápido y WhatsApp directo.
-* **Sección de Servicios:** Tarjetas interactivas con consejos de mantenimiento.
-* **Galería en Movimiento:** Carrusel infinito de trabajos reales.
-* **Opiniones:** Sincronizado automáticamente con Google Reviews mediante Elfsight.
-
-## Ejecución Local
+Sigue estos pasos para levantar el entorno de desarrollo local:
 
 1. Clonar el repositorio:
-   git clone https
+   ```bash
+   git clone https://github.com/TU-USUARIO/falcar-web.git
+   ```
 
 2. Instalar dependencias:
+   ```bash
    npm install
+   ```
 
-3. Iniciar desarrollo:
+3. Iniciar el servidor de desarrollo:
+   ```bash
    npm run dev
+   ```
 
-## Licencia
+### 📄 Licencia
 
 Desarrollado para **Falcar Service**. Todos los derechos reservados.
